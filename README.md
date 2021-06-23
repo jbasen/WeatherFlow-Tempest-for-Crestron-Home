@@ -25,8 +25,7 @@ homeowner’s weather station.
 The driver can be installed on a 4-Series Crestron Home processor through side loading.
 The process of side loading a driver is described here:
 
-https://sdkcon78221.crestron.com/sdk/Crestron_Certified_Drivers_SDK/Content/Topics/
-CH-Testing.htm#Side
+https://sdkcon78221.crestron.com/sdk/Crestron_Certified_Drivers_SDK/Content/Topics/CH-Testing.htm#Side
 
 IMPORTANT – The UI for driver settings in Crestron Home is very slow. You need to
 be very patient and give Crestron Home several seconds after changing a field in the
