@@ -7,12 +7,6 @@ home processor. In addition the driver can be configured to trigger events for r
 lightening, high wind, high temperature, and low temperature to drive other actions on
 the Crestron Home processor
 
-This driver is released as shareware. It is free for Crestron programmers to use in their
-own homes or dealers to use in demo systems in their show rooms. However, if this
-driver is used in customer systems, where the dealer or programmer will profit from it,
-then I ask for a simple, one time payment of $100. That gives the dealer or programmer
-the right to use this driver on as many customer systems as they want. Please contact me
-at jay.m.basen@gmail.com to arrange for payment.
 When the WeatherFlow driver is installed, you will be prompted for the serial number of
 the Tempest weather station in the format ST-XXXXXXXX. The driver monitors the
 UDP broadcast traffic produced by the Tempest weather system on the homeowner’s
@@ -44,3 +38,15 @@ When you have completed the configuration of the events, press the save button.
 
 Be aware that events will be triggered each time the Crestron Home processor receives a
 UDP message from the Tempest weather station that meets the specified criteria. 
+
+VERY IMPORTANT - Please be aware that you have to be very careful if you need to uninstall
+the driver.  First, you need to use the Crestron Home Setup App to remove the driver from 
+the room you installed it in. Then you need to back your way out of the room the driver was 
+in, back out of the home setup app in general, wait two minutes, and reboot the processor 
+to try and make sure that your system has fully synchronized with the change.
+
+At that point you can use the Toolbox File Manager tool to delete the driver package from your 
+Crestron Home system. It is all too easy to screw this up or rush the process, and then the driver 
+can get stuck in the room. If this happens, then you will have to fully reset your Crestron 
+Home system to get things straightened out.
+
